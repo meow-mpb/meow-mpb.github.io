@@ -7,23 +7,33 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>宇宙煎饼·Meow</copyright>
-        <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://meow-mpb.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://meow-mpb.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Fun</title>
+        <link>https://meow-mpb.github.io/page/fun/</link>
+        <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://meow-mpb.github.io/page/fun/</guid>
+        <description>&lt;p&gt;（🚧小游戏建设中&amp;hellip; 🚧）&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>关于本站</title>
-        <link>https://meow-mpb.github.io/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</link>
+        <link>https://meow-mpb.github.io/page/about/</link>
         <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
         
-        <guid>https://meow-mpb.github.io/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</guid>
-        <description>&lt;h1 id=&#34;宇宙煎饼--meow-&#34;&gt;宇宙煎饼 · Meow 🌯🐱
-&lt;/h1&gt;&lt;p&gt;你好呀！欢迎来到我的小角落。&lt;/p&gt;
+        <guid>https://meow-mpb.github.io/page/about/</guid>
+        <description>&lt;h1 id=&#34;宇宙煎饼--meow&#34;&gt;宇宙煎饼 · Meow
+&lt;/h1&gt;&lt;p&gt;你好。欢迎来到我的网站（狗窝）。如果你不是我认识的朋友，那你怎么这么闲怎么找到点进来看的？不过哈哈，谢谢你愿意耗费时间来参观！(=｀ 3′=)o ❤ o(=•ω •=)&lt;/p&gt;
 &lt;p&gt;这里会放：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;我喜欢的一些漫画📕，还会有我自己画的一些小东西🎨&lt;/li&gt;
-&lt;li&gt;一些杂谈碎碎念&lt;/li&gt;
-&lt;li&gt;喜欢的图等等，这我得慢慢想了&lt;/li&gt;
+&lt;li&gt;我喜欢的一些东西，放什么我会一边想一边规划，有收藏整理小癖好，这是建设的网站的原因之一&lt;/li&gt;
+&lt;li&gt;一些杂谈碎碎念，或者小说（小说太羞耻了我还得考虑一下，而且都只是开了头到处挖坑XoX&lt;/li&gt;
+&lt;li&gt;我的创作和一些照片（可能？&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;为什么叫“宇宙煎饼Meow”？&lt;/strong&gt;&lt;br&gt;
-因为我喜欢，我感觉这三个元素组合起来非常棒。这是一种感觉你懂吗？不懂我也不管ε=( =｀ω′)ノ&lt;/p&gt;
-&lt;p&gt;有什么想说的，欢迎留言。（评论功能100年后做）&lt;/p&gt;
+&lt;p&gt;看到这应该就了解了，我不是为了什么访客而建设的网站，而是闲的想整一个自己没事看看。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么叫“宇宙煎饼Meow”？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;因为我喜欢，我感觉这三个元素组合起来非常棒。这是一种感觉你懂吗？不懂我也不管ε=( =｀ω′)&lt;/p&gt;
+&lt;p&gt;而且我爱吃煎饼啊，就连广东那种甜不拉几的糖葱卷饼也能接受！（我是比较爱吃咸的&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;本站使用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo&lt;/a&gt; + Stack 主题搭建，代码在 &lt;a class=&#34;link&#34; href=&#34;https://github.com/meow-mpb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -31,28 +41,20 @@
 </description>
         </item>
         <item>
-        <title>归档</title>
-        <link>https://meow-mpb.github.io/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://meow-mpb.github.io/archives/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>搜索</title>
-        <link>https://meow-mpb.github.io/search/</link>
+        <link>https://meow-mpb.github.io/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://meow-mpb.github.io/search/</guid>
+        <guid>https://meow-mpb.github.io/page/search/</guid>
         <description></description>
         </item>
         <item>
-        <title>友情链接 ❤</title>
-        <link>https://meow-mpb.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+        <title>致谢 ❤</title>
+        <link>https://meow-mpb.github.io/page/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://meow-mpb.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
-        <description>&lt;p&gt;在此感谢我使用过的一些网站。&lt;/p&gt;
+        <guid>https://meow-mpb.github.io/page/links/</guid>
+        <description>&lt;p&gt;在此感谢我使用过的一些网站&amp;hellip;或者推荐一些有趣的网站！&lt;/p&gt;
 </description>
         </item>
         

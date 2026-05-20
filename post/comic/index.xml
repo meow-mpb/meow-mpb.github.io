@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>COMIC on 宇宙煎饼·Meow</title>
+        <link>https://meow-mpb.github.io/post/comic/</link>
+        <description>Recent content in COMIC on 宇宙煎饼·Meow</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>宇宙煎饼·Meow</copyright>
+        <lastBuildDate></lastBuildDate><atom:link href="https://meow-mpb.github.io/post/comic/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>
