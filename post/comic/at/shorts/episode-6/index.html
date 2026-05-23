@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Finn和他的好兄弟狗狗Jack的探险时光！！！">
-<title>探险时光</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="第六话 ">
+<title>AT：短篇6</title>
 
-<link rel='canonical' href='https://meow-mpb.github.io/post/comic/at/'>
+<link rel='canonical' href='https://meow-mpb.github.io/post/comic/at/shorts/episode-6/'>
 
-<link rel="stylesheet" href="/scss/style.min.5f2dbd626bc263f476d836d3664d6611d31bfd6ec257cb1cfb66c44148b4c5bc.css"><meta property='og:title' content="探险时光">
-<meta property='og:description' content="Finn和他的好兄弟狗狗Jack的探险时光！！！">
-<meta property='og:url' content='https://meow-mpb.github.io/post/comic/at/'>
+<link rel="stylesheet" href="/scss/style.min.5f2dbd626bc263f476d836d3664d6611d31bfd6ec257cb1cfb66c44148b4c5bc.css"><meta property='og:title' content="AT：短篇6">
+<meta property='og:description' content="第六话 ">
+<meta property='og:url' content='https://meow-mpb.github.io/post/comic/at/shorts/episode-6/'>
 <meta property='og:site_name' content='宇宙煎饼·Meow'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-05-23T00:00:00&#43;00:00 '/>
-<meta name="twitter:title" content="探险时光">
-<meta name="twitter:description" content="Finn和他的好兄弟狗狗Jack的探险时光！！！"><link rel="alternate" type="application/rss&#43;xml" href="https://meow-mpb.github.io/post/comic/at/index.xml">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2026-05-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-05-23T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="AT：短篇6">
+<meta name="twitter:description" content="第六话 ">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -208,337 +208,360 @@
     </ol>
 </aside>
 
-            <main class="main full-width">
-<main class="main" style="padding: 2rem 1rem;">
-    <div class="comic-window" id="comicApp">
-        <div class="window-bar">
-            <div class="win-title">
-                <span>📘</span>
-                <span>comic</span>
-                <span style="font-size:1rem; padding:0 6px;"></span>
-            </div>
-            <div class="win-controls">
-                <span>─</span>
-                <span>□</span>
-                <span>✕</span>
-            </div>
+<aside class="sidebar right-sidebar sticky">
+    <div class="widget comic-player-widget">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+            </svg>
         </div>
-
-        <div class="window-main">
-            <div class="comic-list-panel">
-                <div class="comic-list-title">
-                    <span>🎴</span> MANGA LIST <span style="font-size:0.7rem;"></span>
+        <h2 class="widget-title section-title">🎵 好听爱听</h2>
+        <div class="comic-player">
+            <div class="player-cover">
+                <img id="sidebarPlayerCover" src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover2.jpg" alt="cover">
+            </div>
+            <div class="player-info">
+                <div id="sidebarPlayerTitle" class="player-title">True Kinda Love</div>
+                <div class="player-controls">
+                    <button id="sidebarPrevBtn" class="player-btn">⏮</button>
+                    <button id="sidebarPlayPauseBtn" class="player-btn">⏸</button>
+                    <button id="sidebarNextBtn" class="player-btn">⏭</button>
                 </div>
-                <ul class="comic-items" id="comicList"></ul>
             </div>
-
-            <div class="right-content" id="rightArea">
-                <div class="notice-msg">📖 点击左侧漫画名称查看详情</div>
+            <div class="player-progress">
+                <input type="range" id="sidebarProgress" value="0" step="1">
+                <div class="time-info">
+                    <span id="sidebarCurrentTime">0:26</span> / <span id="sidebarDuration">4:54</span>
+                </div>
+            </div>
+            <div class="player-volume">
+                <span>🔊</span>
+                <input type="range" id="sidebarVolume" min="0" max="1" step="0.01" value="1">
             </div>
         </div>
-
-        <div class="window-footer"></div>
     </div>
-</main>
-
+</aside>
 <style>
-     
-    .win-title span:nth-child(2) {
-        font-size: 1.6rem !important;
-        font-weight: bold;
-    }
-     
-    .comic-list-title {
-        margin-bottom: 16px !important;
-    }
+.comic-player-widget {
+    background: #fef8e7;
+    border: 2px solid #2c2c2c;
+    padding: 1rem;
+    box-shadow: inset 0 0 0 1px #fffdf8, 4px 4px 0 #b0a888;
+}
+html[data-scheme="dark"] .comic-player-widget {
+    background: #1a1f2c;
+    border-color: #283870;
+    box-shadow: inset 0 0 0 1px #2a3a70, 4px 4px 0 #0c1030;
+}
+.comic-player {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.player-cover {
+    width: 100%;
+    text-align: center;
+}
+.player-cover img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid #2c2c2c;
+}
+html[data-scheme="dark"] .player-cover img {
+    border-color: #283870;
+}
+.player-info {
+    text-align: center;
+}
+.player-title {
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.player-controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.player-btn {
+    background: #fef8e7;
+    border: 2px solid #2c2c2c;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.1s linear;
+    font-family: monospace;
+}
+.player-btn:hover {
+    transform: translate(-1px, -1px);
+    background: #e8e0cc;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+}
+html[data-scheme="dark"] .player-btn {
+    background: #222c50;
+    border-color: #283870;
+    color: #E0C9A7;
+}
+.player-progress {
+    width: 100%;
+}
+#sidebarProgress {
+    width: 100%;
+    margin: 8px 0;
+    background: #d0c8b0;
+    height: 4px;
+    -webkit-appearance: none;
+}
+#sidebarProgress:focus {
+    outline: none;
+}
+#sidebarProgress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #2c2c2c;
+    border: none;
+    cursor: pointer;
+}
+.time-info {
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: monospace;
+}
+.player-volume {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+}
+.player-volume input {
+    flex: 1;
+}
 </style>
 
 <script>
-    
-    const comicsData = [
-        {
-            id: "\"短篇\"",
-            title: "\"短篇\"",
-            description: "\"\"",
-            kaomoji: "null",
-            cover: "null",
-            categories: [
-            ]
-        },
-        {
-            id: "\"特辑\"",
-            title: "\"特辑\"",
-            description: "\"\"",
-            kaomoji: "null",
-            cover: "null",
-            categories: [
-            ]
-        },
-        {
-            id: "\"正篇\"",
-            title: "\"正篇\"",
-            description: "\"\"",
-            kaomoji: "null",
-            cover: "null",
-            categories: [
-            ]
-        }
+(function() {
+    const songs = [
+        { title: "Monster", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/01-Monster.flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover1.jpg" },
+        { title: "True Kinda Love", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/02-True-Kinda-Love.mp3", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover2.jpg" },
+        { title: "Not Just Your Little Girl", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/03-Not-Just-Your-Little-Girl.flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover3.jpg" },
+        { title: "Haven't You Noticed (I'm a Star)", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/04-Haven't-You-Noticed.flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover4.jpg" },
+        { title: "Everything Stays", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/05-Everything-Stays.flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover5.jpg" },
+        { title: "Fries", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/06-Fries.flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover6.jpg" },
+        { title: "I'm Just Your Problem", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/07-I'm-Just-Your-Problem.flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover7.jpg" },
+		{ title: "No Big Deal", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/10-No-Big-Deal.flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover10.jpg" },
+		{ title: "otherside", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/11-otherside.flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover1.jpg" },
+		{ title: "Just the Two of Us(Acoustic)", file: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/12-Just-the-Two-of Us(Acoustic).flac", cover: "https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/music/covers/cover1.jpg" },
     ];
 
-    function unquote(str) {
-        if (typeof str !== 'string') return str;
-        return str.replace(/^"|"$/g, '');
+    let currentIndex = 0;
+    let audio = new Audio();
+    let isPlaying = false;
+
+    const coverImg = document.getElementById('sidebarPlayerCover');
+    const titleEl = document.getElementById('sidebarPlayerTitle');
+    const playPauseBtn = document.getElementById('sidebarPlayPauseBtn');
+    const prevBtn = document.getElementById('sidebarPrevBtn');
+    const nextBtn = document.getElementById('sidebarNextBtn');
+    const progressSlider = document.getElementById('sidebarProgress');
+    const currentTimeSpan = document.getElementById('sidebarCurrentTime');
+    const durationSpan = document.getElementById('sidebarDuration');
+    const volumeSlider = document.getElementById('sidebarVolume');
+
+    function formatTime(seconds) {
+        if (isNaN(seconds)) return '0:00';
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
     }
 
-    function escapeHtml(str) {
-        if (!str) return '';
-        return str.replace(/[&<>]/g, function(m) {
-            if (m === '&') return '&amp;';
-            if (m === '<') return '&lt;';
-            if (m === '>') return '&gt;';
-            return m;
-        });
+    function loadSong(index) {
+        const song = songs[index];
+        audio.src = song.file;
+        titleEl.textContent = song.title;
+        coverImg.src = song.cover;
+        progressSlider.value = 0;
+        currentTimeSpan.textContent = '0:00';
+        durationSpan.textContent = '0:00';
     }
 
-    function renderComicList() {
-        const listEl = document.getElementById('comicList');
-        if (!listEl) return;
-        listEl.innerHTML = '';
-        comicsData.forEach(comic => {
-            const li = document.createElement('li');
-            const link = document.createElement('a');
-            link.href = '#';
-            link.className = 'comic-link';
-            link.textContent = unquote(comic.title);
-            link.setAttribute('data-id', comic.id);
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                showComicFullView(comic.id);
-                setActiveHighlight(comic.id);
-            });
-            li.appendChild(link);
-            listEl.appendChild(li);
-        });
+    function updatePlayPauseButton() {
+        playPauseBtn.textContent = isPlaying ? '⏸' : '⏵';
     }
 
-    function setActiveHighlight(comicId) {
-        document.querySelectorAll('.comic-link').forEach(link => {
-            if (link.getAttribute('data-id') === comicId) {
-                link.classList.add('active-comic');
-            } else {
-                link.classList.remove('active-comic');
-            }
-        });
+    function play() {
+        audio.play();
+        isPlaying = true;
+        updatePlayPauseButton();
+    }
+    function pause() {
+        audio.pause();
+        isPlaying = false;
+        updatePlayPauseButton();
+    }
+    function togglePlay() {
+        isPlaying ? pause() : play();
+    }
+    function next() {
+        currentIndex = (currentIndex + 1) % songs.length;
+        loadSong(currentIndex);
+        if (isPlaying) play();
+    }
+    function prev() {
+        currentIndex = (currentIndex - 1 + songs.length) % songs.length;
+        loadSong(currentIndex);
+        if (isPlaying) play();
     }
 
-    function createCoverElement(coverPath) {
-        const container = document.createElement('div');
-        container.style.width = '100%';
-        container.style.height = '100%';
-        container.style.display = 'flex';
-        container.style.alignItems = 'center';
-        container.style.justifyContent = 'center';
-        
-        let cleanPath = unquote(coverPath);
-        if (cleanPath && cleanPath.trim()) {
-            const img = document.createElement('img');
-            img.src = cleanPath;
-            img.style.maxWidth = '100%';
-            img.style.maxHeight = '120px';
-            img.style.objectFit = 'contain';
-            img.style.borderRadius = '8px';
-            img.style.boxShadow = '0 2px 6px rgba(0,0,0,0.2)';
-            img.onerror = () => {
-                container.innerHTML = '<div style="font-size:2rem;">📖</div>';
-            };
-            container.appendChild(img);
-        } else {
-            container.innerHTML = '<div style="font-size:2rem;">📖</div>';
+    playPauseBtn.addEventListener('click', togglePlay);
+    nextBtn.addEventListener('click', next);
+    prevBtn.addEventListener('click', prev);
+
+    audio.addEventListener('timeupdate', () => {
+        if (audio.duration) {
+            const percent = (audio.currentTime / audio.duration) * 100;
+            progressSlider.value = percent;
+            currentTimeSpan.textContent = formatTime(audio.currentTime);
+            durationSpan.textContent = formatTime(audio.duration);
         }
-        return container;
+    });
+    progressSlider.addEventListener('input', (e) => {
+        const seekTime = (e.target.value / 100) * audio.duration;
+        audio.currentTime = seekTime;
+    });
+
+    volumeSlider.addEventListener('input', (e) => {
+        audio.volume = parseFloat(e.target.value);
+    });
+    audio.volume = 0.5;
+
+    audio.addEventListener('ended', next);
+
+    loadSong(0);
+})();
+
+document.addEventListener('DOMContentLoaded', function() {
+    var coverImage = document.querySelector('.article-image');
+    if (coverImage) {
+        coverImage.style.display = 'none';
     }
-
-    let currentCategoryIndex = 0;
-    let currentComicId = null;
-
-    function renderChaptersGrid(categories, catIndex) {
-        const gridContainer = document.getElementById('chaptersGrid');
-        if (!gridContainer) return;
-        const category = categories[catIndex];
-        if (!category || !category.chapters || category.chapters.length === 0) {
-            gridContainer.innerHTML = '<div class="notice-msg">✨ 该分类下暂无章节 ✨</div>';
-            return;
-        }
-    
-        
-        const sortedChapters = [...category.chapters].sort((a, b) => {
-            
-            const getNum = (link) => {
-                const match = link.match(/episode-(\d+)/);
-                return match ? parseInt(match[1], 10) : 0;
-            };
-            const numA = getNum(unquote(a.link));
-            const numB = getNum(unquote(b.link));
-            return numA - numB;
-        });
-    
-        let buttonsHtml = '<div class="chapters-grid-layout">';
-        sortedChapters.forEach(chap => {
-            const cleanTitle = unquote(chap.title);
-            let url = unquote(chap.link);
-            if (!url || url === '') {
-                url = `/post/comic/${currentComicId}/${category.baseName}/episode-${Date.now()}/`;
-            }
-            buttonsHtml += `<a href="${url}" class="chapter-btn" target="_self">${escapeHtml(cleanTitle)}</a>`;
-        });
-        buttonsHtml += '</div>';
-        gridContainer.innerHTML = buttonsHtml;
-    }
-
-    function showComicFullView(comicId) {
-        const comic = comicsData.find(c => c.id === comicId);
-        if (!comic) return;
-        currentComicId = comicId;
-
-        const cleanTitle = unquote(comic.title);
-        const cleanDesc = unquote(comic.description);
-        const cleanKaomoji = unquote(comic.kaomoji);
-        const cleanCover = unquote(comic.cover);
-
-        let categoriesHtml = '';
-        if (comic.categories && comic.categories.length > 0) {
-            categoriesHtml = `<div class="category-tabs" id="categoryTabs">
-                ${comic.categories.map((cat, idx) => `
-                    <button class="category-btn ${idx === currentCategoryIndex ? 'active' : ''}" data-cat-index="${idx}">
-                        ${escapeHtml(unquote(cat.name))}
-                    </button>
-                `).join('')}
-            </div>`;
-        } else {
-            categoriesHtml = `<div class="notice-msg">暂无分类</div>`;
-        }
-
-        const rightArea = document.getElementById('rightArea');
-        rightArea.innerHTML = `
-            <div class="detail-view">
-                <div class="detail-header">
-                    <div class="comic-cover" id="dynamicCover"></div>
-                    <div class="comic-title-detail">${escapeHtml(cleanTitle)}</div>
-                </div>
-                <div class="comic-description">
-                    📖 简介：${escapeHtml(cleanDesc) || '暂无简介'}
-                </div>
-                <div class="kaomoji">
-                    ✨ ${escapeHtml(cleanKaomoji) || '・ω・'} ✨
-                </div>
-            </div>
-            <div class="folder-view" style="margin-top:20px;">
-                <h4>📂 章节列表</h4>
-                ${categoriesHtml}
-                <div id="chaptersGrid" class="chapters-grid"></div>
-            </div>
-        `;
-
-        const coverContainer = document.getElementById('dynamicCover');
-        if (coverContainer) {
-            coverContainer.innerHTML = '';
-            coverContainer.appendChild(createCoverElement(cleanCover));
-        }
-
-        if (comic.categories && comic.categories.length > 0) {
-            currentCategoryIndex = 0;
-            renderChaptersGrid(comic.categories, currentCategoryIndex);
-            const btns = document.querySelectorAll('.category-btn');
-            btns.forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    const idx = parseInt(btn.getAttribute('data-cat-index'));
-                    if (!isNaN(idx) && idx !== currentCategoryIndex) {
-                        currentCategoryIndex = idx;
-                        btns.forEach(b => b.classList.remove('active'));
-                        btn.classList.add('active');
-                        renderChaptersGrid(comic.categories, currentCategoryIndex);
-                    }
-                });
-            });
-        } else {
-            const gridContainer = document.getElementById('chaptersGrid');
-            if (gridContainer) gridContainer.innerHTML = '<div class="notice-msg">没有找到章节，请检查目录结构</div>';
-        }
-    }
-
-    renderComicList();
-    if (comicsData.length) {
-        showComicFullView(comicsData[0].id);
-        setActiveHighlight(comicsData[0].id);
-    }
-
-    
-    (function() {
-        const win = document.querySelector('.comic-window');
-        if (!win) return;
-        const bar = win.querySelector('.window-bar');
-        if (!bar) return;
-
-        
-        try {
-            const savedLeft = localStorage.getItem('comicWindowLeft');
-            const savedTop = localStorage.getItem('comicWindowTop');
-            if (savedLeft !== null && savedTop !== null) {
-                win.style.position = 'fixed';
-                win.style.margin = '0';
-                win.style.left = savedLeft + 'px';
-                win.style.top = savedTop + 'px';
-                win.style.maxWidth = 'none';
-                win.style.width = win.offsetWidth + 'px';
-                win.style.zIndex = '9999';
-            }
-        } catch(e) {}
-
-        let isDragging = false;
-        let offsetX, offsetY;
-
-        bar.addEventListener('mousedown', (e) => {
-            if (e.button !== 0) return;
-            if (e.target.closest('.win-controls')) return;
-            e.preventDefault();
-
-            const rect = win.getBoundingClientRect();
-            offsetX = e.clientX - rect.left;
-            offsetY = e.clientY - rect.top;
-
-            if (win.style.position !== 'fixed') {
-                win.style.position = 'fixed';
-                win.style.margin = '0';
-                win.style.left = rect.left + 'px';
-                win.style.top = rect.top + 'px';
-                win.style.maxWidth = 'none';
-                win.style.width = rect.width + 'px';
-                win.style.zIndex = '9999';
-            }
-            isDragging = true;
-        });
-
-        window.addEventListener('mousemove', (e) => {
-            if (!isDragging) return;
-            let newLeft = e.clientX - offsetX;
-            let newTop = e.clientY - offsetY;
-
-            newTop = Math.max(0, newTop);   
-            win.style.left = newLeft + 'px';
-            win.style.top = newTop + 'px';
-        });
-
-        window.addEventListener('mouseup', () => {
-            if (isDragging) {
-                try {
-                    localStorage.setItem('comicWindowLeft', parseFloat(win.style.left));
-                    localStorage.setItem('comicWindowTop', parseFloat(win.style.top));
-                } catch(e) {}
-                isDragging = false;
-            }
-        });
-    })();
+});
 </script>
+<style>
+body.article-page {
+    background-image: url('/img/AT.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center top !important;
+    position: relative;
+}
+ 
+</style>
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/comic/at/shorts/episode-6/">AT：短篇6</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2026-05-23T00:00:00Z'>2026-05-23</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h5 id="第六话"><center>第六话</center>
+</h5><p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0001.jpg" alt="第1页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0002.jpg" alt="第2页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0003.jpg" alt="第3页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0004.jpg" alt="第4页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0005.jpg" alt="第5页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0006.jpg" alt="第6页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0007.jpg" alt="第7页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0008.jpg" alt="第8页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0009.jpg" alt="第9页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0010.jpg" alt="第10页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0011.jpg" alt="第11页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0012.jpg" alt="第12页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0013.jpg" alt="第13页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0014.jpg" alt="第14页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0015.jpg" alt="第15页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0016.jpg" alt="第16页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0017.jpg" alt="第17页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0018.jpg" alt="第18页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0019.jpg" alt="第19页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0020.jpg" alt="第20页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0021.jpg" alt="第21页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0022.jpg" alt="第22页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0023.jpg" alt="第23页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0024.jpg" alt="第24页"  /></p>
+<p><img src="https://pub-a969d40e123a4a47ae13e2ddb57c2ca6.r2.dev/post/comic/at/shorts/episode-6/0025.jpg" alt="第25页"  /></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Love like you⭐</span>
+    </section>
+    </footer>
+
+
+    
+</article>
 
             </main>
         </div>
