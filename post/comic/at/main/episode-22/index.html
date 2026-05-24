@@ -669,18 +669,18 @@ body.article-page {
             };
             const introMessages = [
                 "不想上早八！",
-				"何时能拥有4090高配主机，我馋。",
+                "何时能拥有4090高配主机，我馋。",
                 "最近沉迷搞网站=￣ω￣=",
                 "漫画弹窗——我的得意之作！桀桀桀",
                 "在想面条的事🍜...",
-				"请支持我们MPB🩷🖤"
+                "请支持我们MPB🩷🖤",   
                 "喵喵喵~",
                 "Love and Peace~",
                 "I'm Space Jianbing...meow?",
                 "你没活干吗？",
-				"吾乃无情煎饼天尊desuwa，扣1祝我渡劫飞升。赏你一辈子吃不完的饼！"
-				"海纳百川,有容乃大。"
-				"git commit -m"博主又在更新屎山代码了er.." "
+                "吾乃无情煎饼天尊desuwa，扣1祝我渡劫飞升。赏你一辈子吃不完的饼！",  
+                "海纳百川,有容乃大。",
+                'git commit -m "博主又在更新屎山代码了er.."',  
                 "“千秋种我一粟青。”",
                 "work~work~",
                 "Adventure Time——我心里第一的动画！( •̀ ω •́ )❤"
@@ -740,9 +740,18 @@ body.article-page {
                     });
                 }
             }
-            if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initDialog);
+                        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initDialog);
             else initDialog();
-        })();
+
+            
+                        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initDialog);
+                        else initDialog();
+            
+                        
+                        if (typeof InstantClick !== 'undefined') {
+                            InstantClick.on('change', initDialog);
+                        }
+                    })();
         </script>
     </body>
 </html>
