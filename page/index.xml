@@ -7,37 +7,45 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>宇宙煎饼·Meow</copyright>
-        <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://meow-mpb.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://meow-mpb.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于我</title>
+        <link>https://meow-mpb.github.io/page/about/</link>
+        <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://meow-mpb.github.io/page/about/</guid>
+        <description>&lt;h1 id=&#34;关于我&#34;&gt;关于我
+&lt;/h1&gt;&lt;p&gt;你好！我是周春雨，广东轻工职业技术大学环境监测技术专业2027届毕业生，目前正在寻找游戏策划方向的实习机会。&lt;/p&gt;
+&lt;h2 id=&#34;关于这个网站&#34;&gt;关于这个网站
+&lt;/h2&gt;&lt;p&gt;这个网站最初是出于个人兴趣搭建的——我喜欢折腾网页、整理资源、把想法落地成看得见的东西。现在它同时作为我的&lt;strong&gt;个人作品集和兴趣分享空间&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;网站主要收录：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;游戏设计相关作品&lt;/strong&gt;：Mod开发、系统拆解报告、策划案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;像素美术创作&lt;/strong&gt;：角色设计、道具图标、动画帧&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;兴趣整理与收藏&lt;/strong&gt;：音乐、漫画、网站推荐等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;游戏经历与设计偏好&#34;&gt;游戏经历与设计偏好
+&lt;/h2&gt;&lt;p&gt;我是2D游戏的深度爱好者，Steam游戏时长累计超过900h+，长期投入的游戏包括《以撒的结合》《空洞骑士》《杀戮尖塔》等。手游方面有5年《明日方舟》的持续体验经历。&lt;/p&gt;
+&lt;p&gt;我做游戏设计的出发点是：&lt;strong&gt;从玩家视角出发，但用设计者的方式思考&lt;/strong&gt;。从《以撒的结合》角色Mod开始，我尝试把一个想法从概念推到可运行的状态——设计角色定位、调整数值平衡、绘制像素美术、调试Lua脚本。这个过程让我确认了一件事：游戏策划是我真正想走的路。&lt;/p&gt;
+&lt;h2 id=&#34;目前状态&#34;&gt;目前状态
+&lt;/h2&gt;&lt;p&gt;正在寻找2027届游戏策划/策划助理方向的实习机会，希望能在2D像素风格、策略休闲或Roguelike品类中持续学习和成长。&lt;/p&gt;
+&lt;p&gt;欢迎通过以下方式联系我：&lt;/p&gt;
+&lt;p&gt;📧 &lt;a class=&#34;link&#34; href=&#34;mailto:2796922275@qq.com&#34; &gt;2796922275@qq.com&lt;/a&gt;
+📱 130-5581-0040
+🔗 GitHub: &lt;a class=&#34;link&#34; href=&#34;https://github.com/meow-mpb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;meow-mpb&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;本站使用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt; + Stack 主题搭建，代码托管在 &lt;a class=&#34;link&#34; href=&#34;https://github.com/meow-mpb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt; 上。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Fun</title>
         <link>https://meow-mpb.github.io/page/fun/</link>
         <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
         
         <guid>https://meow-mpb.github.io/page/fun/</guid>
         <description>&lt;p&gt;（🚧小游戏建设中&amp;hellip; 🚧）&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>关于本站</title>
-        <link>https://meow-mpb.github.io/page/about/</link>
-        <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://meow-mpb.github.io/page/about/</guid>
-        <description>&lt;h1 id=&#34;宇宙煎饼--meow&#34;&gt;宇宙煎饼 · Meow
-&lt;/h1&gt;&lt;p&gt;你好。欢迎来到我的网站（狗窝）。如果你不是我认识的朋友，那你怎么这么闲怎么找到点进来看的？不过哈哈，谢谢你愿意耗费时间来参观！(=｀ 3′=)o ❤ o(=•ω •=)&lt;/p&gt;
-&lt;p&gt;这里会放：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;我喜欢的一些东西，放什么我会一边想一边规划，有收藏整理小癖好，这是建设的网站的原因之一&lt;/li&gt;
-&lt;li&gt;一些杂谈碎碎念，或者小说（小说太羞耻了我还得考虑一下，而且都只是开了头到处挖坑XoX&lt;/li&gt;
-&lt;li&gt;我的创作和一些照片（可能？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;看到这应该就了解了，我不是为了什么访客而建设的网站，而是闲的想整一个自己没事看看。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;为什么叫“宇宙煎饼Meow”？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;因为我喜欢，我感觉这三个元素组合起来非常棒。这是一种感觉你懂吗？不懂我也不管ε=( =｀ω′)&lt;/p&gt;
-&lt;p&gt;而且我爱吃煎饼啊，就连广东那种甜不拉几的糖葱卷饼也能接受！（我是比较爱吃咸的&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;本站使用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt; + Stack 主题搭建，代码在 &lt;a class=&#34;link&#34; href=&#34;https://github.com/meow-mpb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub&lt;/a&gt; 上。&lt;/p&gt;
 </description>
         </item>
         <item>
